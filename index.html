@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ko">
+    <title>박스모델과 레이아웃</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <header>
+        <button id="menu-button">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </button>
+        <h5>My Home Page</h5>
+    </header>
+    
+      <nav id="side-menu" class="hidden">
+        <ul>
+          <li><a href="#">Menu 1</a></li>
+          <li><a href="#">Menu 2</a></li>
+          <li><a href="#">Menu 3</a></li>
+        </ul>
+      </nav>
+    <script>
+        let hidden = true;
+        const menuButton = document.getElementById('menu-button');
+        const sideMenu = document.getElementById('side-menu');
+    
+        menuButton.addEventListener('click', () => {
+          if (hidden) {
+            sideMenu.classList.remove('hidden');
+            hidden = false;
+          } else {
+            sideMenu.classList.add('hidden');
+            hidden = false;
+          }
+        });
+      </script>
+    <div class="container2">
+        <img src="./images2/moon4.jpg">
+        <img src="./images2/eclipse.jpg">
+        <img src="./images2/moon5.jpg" class="big">
+        <img src="./images2/moon6.jpg" class="big">
+        <img src="./images2/solareclipse.jpg">
+        <img src="./images2/moon3.jpg">
+        <img src="./images2/bluemoon.jpeg">
+        <img src="./images2/pinkmoon.jpg">
+        <img src="./images2/moon7.png">
+    </div>
+    <div class="container">      
+        <div class="section1">
+            <h1>What's The Moon?<br/><br/></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel cupiditate minima, 
+                nesciunt beatae facilis amet nostrum soluta vero nam consequatur deserunt nemo nobis culpa libero esse! 
+                Numquam corrupti omnis porro placeat voluptas quasi ex rerum soluta non impedit fugiat itaque officia, ab mollitia adipisci accusamus ad nobis doloremque odit, 
+                vel labore! Obcaecati doloremque perferendis debitis, quo architecto, dolorum sed exercitationem voluptatibus molestias eius quod consequatur voluptate ducimus minima modi vero sunt optio molestiae incidunt non inventore cumque autem! Cumque molestias voluptatibus magnam architecto? Natus ullam quis temporibus debitis et laudantium nisi hic quam? Vitae modi saepe ducimus quia dolor quas commodi cupiditate quam ex cumque id error quaerat, illo incidunt aspernatur vel laborum officia a. Reiciendis eveniet aperiam, totam quos adipisci voluptatem consequuntur labore quibusdam itaque blanditiis minima esse, magni tempora, illum temporibus. Incidunt natus aliquid rerum iure. Aut animi dolorum sunt corporis libero laboriosam blanditiis iusto nostrum porro consequuntur doloremque rem vero fugiat saepe accusamus sit cum accusantium dolore quas ad facere, iste ducimus. 
+                Ipsum explicabo porro dignissimos corrupti cum debitis omnis itaque culpa ab molestiae provident accusantium dolore doloribus, nulla earum asperiores et, veniam commodi sit. 
+                Eius illum vitae nesciunt omnis debitis sint magnam deleniti deserunt laboriosam impedit.
+                Culpa! 
+            </p>
+        </div>
+        <div class="aside">
+            <h1>Position<br/><br/></h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro iste voluptates culpa deleniti amet. Vero facere dolorum aperiam odio facilis excepturi! 
+                Iste nulla ipsa magni nam provident. Odio dolore omnis quas neque molestias sed repellendus vitae quae earum dignissimos nobis repudiandae enim fugiat mollitia explicabo, 
+                expedita ullam, nemo nihil ducimus ex? 
+                Quo sunt atque dolores fuga ipsam, ullam ad blanditiis tenetur rem repellat amet accusamus aliquam distinctio sequi voluptatum ipsa!
+            </p>
+        </div>
+        <div class="moonimage">
+            <img src="./images2/moon4.jpg">
+        </div>
+        <h1>What's The Role of The Moon?<br/></h1>
+        <div class="section2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda delectus amet adipisci velit tempora sed tempore voluptate sint aut veniam quos, 
+                    quasi corporis mollitia dolor eum nesciunt? Sed sit consequatur adipisci explicabo maxime magni qui, autem perspiciatis, reprehenderit harum eos quo suscipit molestiae ratione. 
+                    Dignissimos ipsa consectetur vitae impedit error facere quibusdam, corrupti enim ab quas temporibus itaque, sed tempore unde quaerat, doloribus similique labore doloremque molestiae. 
+                    Tempora enim dolor accusantium illo quo atque et sapiente autem, cupiditate at maiores laborum in repudiandae eius sit dicta reprehenderit nulla. 
+                    Eligendi sed consequatur voluptatum quia. Ut, ipsa quis! Similique libero in ad! 
+                    Tenetur provident minima in, ipsum facilis ullam excepturi corrupti delectus tempora culpa magni quod harum, libero ab amet. Ipsam tempore autem corporis. 
+                </p>
+        </div>
+        <div class="footer">Copyright 2020(EunBi)all rights reserved</div>
+    </div>    
+</body>
+</html>
