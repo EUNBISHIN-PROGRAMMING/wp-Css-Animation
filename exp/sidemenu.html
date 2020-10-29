@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Side Menu 구현</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <button id="menu-button">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </button>
+    <h5>My Home Page</h5>
+  </header>
+
+  <nav id="side-menu" class="hidden">
+    <ul>
+      <li><a href="#">Menu 1</a></li>
+      <li><a href="#">Menu 2</a></li>
+      <li><a href="#">Menu 3</a></li>
+    </ul>
+  </nav><main>
+    <h1>My Home Page</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quo architecto quisquam voluptatibus at esse omnis natus minus est qui minima harum, tempore aspernatur ipsum expedita, reprehenderit hic ipsam optio pariatur rem illo sed fuga? Natus eaque nemo, quasi quibusdam, adipisci sequi culpa dolorum error, illo ducimus veniam? Amet, fuga doloremque quia non aliquid optio corrupti ipsa. Architecto sed impedit ratione illo adipisci rerum hic nemo, a non voluptatum cupiditate obcaecati nam numquam sequi, beatae enim debitis perferendis labore! Eligendi nostrum temporibus quisquam voluptatem ipsam asperiores consectetur nemo? Facere quidem, quam aut tempora distinctio officiis dolor nemo iure voluptates delectus consequuntur voluptatum quo sapiente. Velit accusantium culpa, a veritatis commodi nulla voluptas nesciunt molestiae adipisci nihil eligendi nemo sit dolorem eius, voluptatibus totam mollitia aliquam doloremque. Recusandae vel ipsa, amet voluptatum sequi vitae atque rerum cumque distinctio praesentium porro, provident consectetur laborum veniam deserunt expedita officiis aliquam rem non ullam itaque! Nulla libero hic porro consequatur natus ab temporibus? Odio sequi modi inventore, corrupti ea maxime autem, reiciendis fugit quod sint accusamus, tempora dignissimos. Modi recusandae assumenda itaque ad, laboriosam illum quos amet exercitationem in ducimus cupiditate ea aliquid. Numquam incidunt nulla quisquam? Dolorum beatae consequuntur quam! Pariatur quia voluptatem explicabo soluta sequi iure maxime, recusandae porro aspernatur, magni, cum molestiae atque dicta? Veritatis consequuntur repudiandae facere eaque maiores necessitatibus mollitia alias velit, voluptatibus, nisi reiciendis rerum quos nobis fugiat eius ad! Error necessitatibus eaque dignissimos, quos quis, cumque, cum sequi iste vero dolore libero ipsa dicta beatae tenetur aliquid reiciendis maiores atque tempore sint sit? Eum accusamus vitae facilis doloribus consequatur maiores aliquid inventore velit ut nam vel, maxime aut nulla commodi itaque, cumque voluptatem quo dolorem aspernatur vero atque. Dolore dolorum magnam neque accusantium dolor iusto explicabo eos libero quibusdam, dolores commodi perferendis cum reiciendis voluptatum quas cumque architecto adipisci ipsum, a odio voluptas quasi expedita itaque! Ad maiores quisquam, iste explicabo consequatur magni quaerat inventore architecto omnis sunt cumque eius commodi quidem error. Incidunt quae, maxime corrupti ex perferendis magni praesentium dolor esse consectetur delectus soluta odit quia tempore, quaerat facere fuga repellat a accusamus placeat consequuntur. Non nemo hic aliquam praesentium maiores nihil, quos temporibus fugit voluptatem amet quasi, quas, repellat sapiente tenetur sint earum. Nesciunt corporis repellendus eos sit optio vel aliquid quia ad asperiores, iure alias nemo exercitationem, expedita quam laborum fugit amet reprehenderit aliquam suscipit. Rerum quod, quia odit dolores dolorum, nisi dolore perferendis enim nostrum aliquam libero sequi officia voluptates deserunt reprehenderit, deleniti fugiat vero! A molestias, esse, nisi inventore reiciendis soluta eveniet quidem officia numquam, explicabo vel distinctio. Consequuntur delectus vero, eligendi quam facere ullam incidunt praesentium iusto doloremque esse eos laudantium neque, harum iure deleniti porro similique accusantium cumque at fugit nesciunt enim sed. Perferendis reprehenderit blanditiis molestias provident, maiores ullam assumenda ex tenetur, eaque quam consequuntur non nam. Laudantium quis ut aspernatur quam quia, impedit distinctio consequatur, modi error sit dicta, tempora tempore enim nam cumque ab ipsa doloribus praesentium? Numquam voluptatibus dicta quaerat minus fugiat dolorum sit commodi.
+    </p>
+  </main>
+
+  <script>
+    // javascript 코드(다음 주 강의부터 다루게 됨)
+    let hidden = true;
+    const menuButton = document.getElementById('menu-button');
+    const sideMenu = document.getElementById('side-menu');
+
+    menuButton.addEventListener('click', () => {
+      if (hidden) {
+        sideMenu.classList.remove('hidden');
+        hidden = false;
+      } else {
+        sideMenu.classList.add('hidden');
+        hidden = false;
+      }
+    });
+  </script>
+</body>
+</html>
